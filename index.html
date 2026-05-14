@@ -27,6 +27,19 @@
       letter-spacing: -0.01em;
     }
 
+      .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .logo {
+      width: 265px;
+      height: 265px;
+      object-fit: contain;
+    }
+
     main {
       max-width: 720px;
       margin: 48px auto;
@@ -39,6 +52,8 @@
       letter-spacing: -0.02em;
       margin-bottom: 8px;
     }
+
+    
 
     .updated {
       font-size: 0.875rem;
@@ -71,7 +86,11 @@
 </head>
 <body>
 
-  <header>
+  <header class="header">
+    <img src="https://itc-magic-sia.github.io/quicklinks-app-privacy-policy/QuickLinks-app-Logo-Thick-Line.png"
+      alt="logo" 
+      class="logo"
+      />
     <h1>QuickLinks App</h1>
   </header>
 
